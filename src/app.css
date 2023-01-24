@@ -1,0 +1,24 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.increment {
+  background-color: #14b7e4;
+}
+.decrement {
+  background-color: #e41456;
+}
+.wrapper--button {
+  display: flex;
+  gap: 1rem;
+}
